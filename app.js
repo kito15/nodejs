@@ -12,7 +12,6 @@ const { checkJobDescription, storeJobDescription } = require('./services/job_des
 const app = express();
 const port = 3000;
 
-// CORS Configuration (same as before, consolidated)
 const approvedDomains = [
     'nodejs-production-ee43.up.railway.app',
     'linkedin.com', 'indeed.com', 'glassdoor.com', 'monster.com', 'careerbuilder.com',
